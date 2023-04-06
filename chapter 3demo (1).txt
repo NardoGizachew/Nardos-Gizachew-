@@ -1,0 +1,40 @@
+﻿Demonstrate 
+Chapter 3 
+Control statements 
+Comparison operators: Used to compare two values and return a Boolean result. 
+Examples: == (equality), 
+!= (inequality), 
+< (less than), 
+> (greater than), 
+<= (less than or equal to),
+ and >= (greater than or equal to). 
+Logical operators: Used to combine Boolean expressions and return a Boolean result. 
+Examples: && (logical AND), || (logical OR), and ! (logical NOT). 
+Bitwise operators: Used to perform bitwise operations on binary values.
+ Examples: & (bitwise AND), | (bitwise OR), ^ (bitwise XOR), ~ (bitwise NOT), << (left shift), and >> (right shift).
+ Increment and decrement operators: Used to increment or decrement the value of a variable by 1. 
+Examples: ++ (increment), -- (decrement). Ternary operator:
+ Used to provide a shortcut for an if-else statement.
+ Example: (condition) ? value_if_true : value_if_false.
+ Increment and decrement operators Increment and decrement operators are used to increment or decrement the value of a variable by 1 in C++. 
+The increment operator (++) adds 1 to the value of a variable, while the decrement operator (--) subtracts 1 from the value of a variable. These operators can be used with both integer and floating-point variables. Here are some 
+examples of how to use these operators in C++: int num = 5;num++; 
+// Increment the value of num by 1cout << "num after increment:
+ " << num << endl; int count = 10;count--; // Decrement the value of count by 1cout << "count after decrement: 
+" << count << endl;
+ float value = 3.14;value++; 
+// Increment the value of value by 1cout << "value after increment:
+ " << value << endl; 
+//num after increment: 
+6//count after decrement: 
+9//value after increment: 4.14 
+Simple data type conversionType conversion in C++ refers to the process of converting one data type to another. C++ provides two types of type conversion: 
+implicit type conversion (also called type coercion) and explicit type conversion (also called type casting). 
+Implicit type conversion is performed automatically by the compiler when necessary, without the need for any special syntax. For example, when you assign a value of a smaller data type to a variable of a larger data type, the value is automatically converted to the larger type.
+ Here is an example of implicit type conversion:
+int num1 = 5;double num2 = num1;//
+Implicitly convert int to double Explicit type conversion, on the other hand, requires the use of a special syntax to convert one data type to another.
+ This can be done using the C++ cast operator or the functional notation. Here are some examples of explicit type conversion:
+double num1 = 3.14;int num2 = static_cast<int>(num1); //
+Cast double to int using static_cast int num3 = 10;double num4 = (double) num3; // 
+Cast int to double using functional notation
